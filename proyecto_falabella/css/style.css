@@ -7,8 +7,8 @@
 /* conversor de tamaño de fuente */
  html {
     font-size: 62.5%;
-    background: linear-gradient(#ffffff,#ffffff,#74BB1F);
-    background-repeat: no-repeat;
+    background: rgb(255,255,255);
+    background: linear-gradient(86deg, rgba(255,255,255,1) 0%, rgba(182,235,245,1) 100%);    background-repeat: no-repeat;
  }
 
 /* HEADER */
@@ -284,7 +284,8 @@
 
   /* Footer */
   footer {
-    background-color: #0445B4;
+    background: rgb(10,123,145);
+    background: linear-gradient(90deg, rgba(10,123,145,1) 0%, rgba(22,22,96,1) 50%, rgba(10,123,145,1) 100%);
   }
   .footerContentTop {
     margin: 0 5vw;
