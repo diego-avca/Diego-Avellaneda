@@ -14,83 +14,55 @@
  }
 
 /* HEADER */
-  header {
+   header {
     position: sticky;
     top: 0;
   }
-  .nav {
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    margin: 0 0 0 5vw;
+  .containerBSMine {
+    margin: 0 5vw;
     padding: 2.5vw 0;
-    width: 90vw;
+    position: sticky;
   }
-  .navLinks {
-    display: flex;
-    justify-content: center;
-    margin-left: 15vw;
+  .tooglerBSMine {
+    font-size: 3vw;
+    color: #0445b4;
   }
-  .navLink {
-    list-style: none;
-    margin: 0 5vw;
+  .tooglerIconBSM {
+    color: #0445b4;
   }
-  .navLinkSelect {
-    list-style: none;
-    margin: 0 5vw;
+  .navBarBSM {
+    align-items: center;
   }
-  .navLinkSelect a {
+  .navItemBSM {
+    padding: 0 0 0 2vw;
+  }
+  .navLinkBSM {
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #74BB1F;
     font-size: 1.2vw;
-    transition: all 0.5s;
-  }
-  .navLinkSelect a:hover {
-    background-image: linear-gradient(90deg,#df094b,#75bb1f00);
-    background-position: bottom;
-    background-size: 100% 10%;
-    background-repeat: no-repeat;
-  }
-  .navLink a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #0445B4;
-    font-size: 1.2vw;
-    transition: all 0.5s;
-  }
-  .navLink a:hover {
-    color: #74BB1F;
-    background-image: linear-gradient(90deg,#df094b,#75bb1f00);
-    background-position: bottom;
-    background-size: 100% 10%;
-    background-repeat: no-repeat;
-  }
- .navLogin {
-    background-color: #74BB1F;
-    color: #ffffff;
-    padding: 1.2vw 1.8vw;
-    border-bottom-right-radius: 2vw;
-    border-top-left-radius: 2vw;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.2vw;
-    margin-left: auto;
+    color: #0445b4;
     transition: all 1s;
   }
-  .navLogin:hover {
-    background-color: #DF094B;
+  .navLinkBSM:hover {
+    font-weight: 700;
+    color: #DF094B;
+  }
+  .btnBSMine {
+    font-size: 1vw;
     color: #ffffff;
+    background-color: #0445b4;
+    border: none;
+    border-top-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    padding: 0.2vw 1vw;
+    transition: all 1s;
   }
-  /* Nav Header Responsive */
-  @media (max-width: 576px) {
-    .navLinks {
-      display: none;
-    }
-    .navLogin {
-      font-size: 2.5vw;
-    }
+  .btnBSMine:hover {
+    background-color: #DF094B;
   }
+
+
+
 
 /* BODY */
 /* First Section */
@@ -412,6 +384,30 @@
       font-size: 2vw;
     }
   }
+
+/* Third Section */
+.thirdSection {
+  padding: 3vw 0;
+}
+.thirdSection h1 {
+  border-top: 0.1vw solid #DF094B;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  font-weight: 400;
+  line-height: 4vw;
+  color: #DF094B;
+  font-size: 3vw;
+}
+.carruselBSM h5 {
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #74bb1f;
+  text-transform: uppercase;
+}
+.carruselBSM p {
+  font-size: 1.5vw;
+  color: #ffffff;
+}
 
 
 /*
